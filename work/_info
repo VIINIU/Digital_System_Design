@@ -1,8 +1,10 @@
 m255
 K4
 z2
-!s12c _opt1
+!s12c _opt2
 Z0 !s99 nomlopt
+!s12c _opt1
+R0
 !s12c _opt
 R0
 !s11f vlog 2023.1 2023.01, Jan 23 2023
@@ -34,57 +36,164 @@ R2
 R0
 R3
 R4
-o-quiet -auto_acc_if_foreign -work work +acc
+Z7 o-quiet -auto_acc_if_foreign -work work +acc
 R5
 n@_opt1
 R6
+R1
+T_opt2
+!s110 1778229366
+VQl[jRjW3Eb8Af8k^LZCg:0
+04 20 4 work tb_traffic_emergency fast 0
+=1-70a8d3130ddf-69fda075-388-53fc
+R0
+R3
+!s124 OEM10U4 
+R7
+R5
+n@_opt2
+R6
+vFSM_emergency
+Z8 2traffic_emergency.v tb_traffic_emergency.v
+Z9 !s110 1778229346
+!i10b 1
+!s100 ]Ll[`JBH]4C68KU7`[JeN3
+IQL7Kmd05O0l24Re11DL`f1
+R1
+Z10 w1778229326
+Z11 8traffic_emergency.v
+Z12 Ftraffic_emergency.v
+!i122 2
+L0 16 45
+Z13 VDg1SIo80bB@j0V0VzS_@n1
+Z14 OL;L;2023.1;77
+r1
+!s85 0
+31
+Z15 !s108 1778229345.000000
+Z16 !s107 tb_traffic_emergency.v|traffic_emergency.v|
+Z17 !s90 -reportprogress|300|traffic_emergency.v|tb_traffic_emergency.v|
+!i113 0
+Z18 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R5
+n@f@s@m_emergency
 vRising_Edge_Detector
-Z7 2tb_Rising_Edge_Detector.v Rising_Edge_Detector.v
-Z8 !s110 1778227717
+Z19 2tb_Rising_Edge_Detector.v Rising_Edge_Detector.v
+Z20 !s110 1778227717
 !i10b 1
 !s100 4AdbKmUJ?lkS`;P54mhY?1
 IQfaIFSi0OMV1?<K8N1g4g3
 R1
-Z9 w1778227476
+Z21 w1778227476
 8Rising_Edge_Detector.v
 FRising_Edge_Detector.v
-Z10 8tb_Rising_Edge_Detector.v
-Z11 Ftb_Rising_Edge_Detector.v
+Z22 8tb_Rising_Edge_Detector.v
+Z23 Ftb_Rising_Edge_Detector.v
 !i122 0
 L0 1 19
-Z12 VDg1SIo80bB@j0V0VzS_@n1
-Z13 OL;L;2023.1;77
+R13
+R14
 r1
 !s85 0
 31
-Z14 !s108 1778227717.000000
-Z15 !s107 Rising_Edge_Detector.v|tb_Rising_Edge_Detector.v|
-Z16 !s90 -reportprogress|300|tb_Rising_Edge_Detector.v|Rising_Edge_Detector.v|
+Z24 !s108 1778227717.000000
+Z25 !s107 Rising_Edge_Detector.v|tb_Rising_Edge_Detector.v|
+Z26 !s90 -reportprogress|300|tb_Rising_Edge_Detector.v|Rising_Edge_Detector.v|
 !i113 0
-Z17 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R18
 R5
 n@rising_@edge_@detector
 vtb_Rising_Edge_Detector
-R7
-R8
+R19
+R20
 !i10b 1
 !s100 KWbS_jV;]Nz?MXTNYlhET1
 I4QQeV6O?9T27PJ<W6I9nc2
 R1
-R9
-R10
-R11
+R21
+R22
+R23
 !i122 0
 L0 4 31
-R12
 R13
+R14
 r1
 !s85 0
 31
-R14
-R15
-R16
+R24
+R25
+R26
 !i113 0
-R17
+R18
 R5
 ntb_@rising_@edge_@detector
+vtb_traffic_emergency
+R8
+R9
+!i10b 1
+!s100 zICec]_`cTkfX[W]`fX^E0
+IU=zKUOf6WEh5^=1z_jcL<3
+R1
+w1778229337
+8tb_traffic_emergency.v
+Ftb_traffic_emergency.v
+!i122 2
+L0 3 48
+R13
+R14
+r1
+!s85 0
+31
+R15
+R16
+R17
+!i113 0
+R18
+R5
+vTimer_emergency
+R8
+R9
+!i10b 1
+!s100 Z34;?<cCQI<3oG8@=iP0G2
+IMBH6SGmD1M3IM4cU[_=CC2
+R1
+R10
+R11
+R12
+!i122 2
+L0 2 12
+R13
+R14
+r1
+!s85 0
+31
+R15
+R16
+R17
+!i113 0
+R18
+R5
+n@timer_emergency
+vtraffic_emergency
+R8
+R9
+!i10b 1
+!s100 gYF`^GC32gHK9Z]3V>;3X1
+Ih9k1?Tn@7NT:Uc9`OZPX@2
+R1
+R10
+R11
+R12
+!i122 2
+L0 63 10
+R13
+R14
+r1
+!s85 0
+31
+R15
+R16
+R17
+!i113 0
+R18
+R5
