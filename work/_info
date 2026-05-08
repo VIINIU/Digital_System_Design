@@ -1,0 +1,90 @@
+m255
+K4
+z2
+!s12c _opt1
+Z0 !s99 nomlopt
+!s12c _opt
+R0
+!s11f vlog 2023.1 2023.01, Jan 23 2023
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 dC:/intelFPGA_pro/23.2/questa_fse/examples/Digital_System_Design
+T_opt
+!s110 1778227761
+VNBOedBe[]b6=i:Qlc^O6d3
+Z2 04 23 4 work tb_Rising_Edge_Detector fast 0
+=1-70a8d3130ddf-69fd9a31-1c7-3278
+R0
+Z3 !s12b OEM100
+Z4 !s124 OEM10U2 
+o-quiet -auto_acc_if_foreign -work work
+Z5 tCvgOpt 0
+n@_opt
+Z6 OL;O;2023.1;77
+R1
+T_opt1
+!s110 1778227919
+VNlA:6P]lP:JKLnQec6QM>1
+R2
+=1-70a8d3130ddf-69fd9acf-72-2604
+R0
+R3
+R4
+o-quiet -auto_acc_if_foreign -work work +acc
+R5
+n@_opt1
+R6
+vRising_Edge_Detector
+Z7 2tb_Rising_Edge_Detector.v Rising_Edge_Detector.v
+Z8 !s110 1778227717
+!i10b 1
+!s100 4AdbKmUJ?lkS`;P54mhY?1
+IQfaIFSi0OMV1?<K8N1g4g3
+R1
+Z9 w1778227476
+8Rising_Edge_Detector.v
+FRising_Edge_Detector.v
+Z10 8tb_Rising_Edge_Detector.v
+Z11 Ftb_Rising_Edge_Detector.v
+!i122 0
+L0 1 19
+Z12 VDg1SIo80bB@j0V0VzS_@n1
+Z13 OL;L;2023.1;77
+r1
+!s85 0
+31
+Z14 !s108 1778227717.000000
+Z15 !s107 Rising_Edge_Detector.v|tb_Rising_Edge_Detector.v|
+Z16 !s90 -reportprogress|300|tb_Rising_Edge_Detector.v|Rising_Edge_Detector.v|
+!i113 0
+Z17 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R5
+n@rising_@edge_@detector
+vtb_Rising_Edge_Detector
+R7
+R8
+!i10b 1
+!s100 KWbS_jV;]Nz?MXTNYlhET1
+I4QQeV6O?9T27PJ<W6I9nc2
+R1
+R9
+R10
+R11
+!i122 0
+L0 4 31
+R12
+R13
+r1
+!s85 0
+31
+R14
+R15
+R16
+!i113 0
+R17
+R5
+ntb_@rising_@edge_@detector
